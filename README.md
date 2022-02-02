@@ -36,7 +36,7 @@
 ## Chat
 ![page](./project/demo_images/mobile_chat.png)
 ## Explore
-![page](./project/demo_images/mobile_Explore.png)
+![page](./project/demo_images/mobile_Explore.png) 
 ## Profile
 ![page](./project/demo_images/mobile_Profile.png)
 

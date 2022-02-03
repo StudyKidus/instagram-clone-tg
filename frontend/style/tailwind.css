@@ -3,3 +3,8 @@
 @tailwind utilities;
 @tailwind variants;
 
+@layer base {
+    * {
+        font-family: "Nunito", sans-serif;
+    }
+}

@@ -1,0 +1,65 @@
+
+<%- include("./config/head", { title: "Signup | Instagram"}) %>
+
+<body class="w-full h-screen sm:bg-gray-50">
+    <div class="cont w-full h-full flex flex-col justify-center sm:items-center gap-y-4">
+        <form class="w-full bg-white grid px-3 sm:px-6 py-8 gap-y-3 sm:text-sm sm:gap-y-2 sm:w-[350px] sm:border sm:border-gray-200 sm:shadow-sm sm:shadow-blue-100">
+            <!-- logo -->
+            <div class="flex flex-col items-center h-14 sm:h-12 mb-9">
+                <img class="h-full " src="../images/config/instagram-text-logo.png" alt="">
+                <p class="text-center font-semibold text-gray-500">Signup to see photos and videos from youur friends</p>
+            </div>
+
+            <!-- login with facebook part -->
+            <a href="#" class="block text-white flex justify-center items-center gap-x-2 bg-blue-500 py-1 rounded-sm">
+                <i class="fab fa-facebook-f  "></i>
+                <p class="font-semibold text-lg sm:text-sm ">Login with facebook</p>
+            </a>
+
+            <!-- Or btn -->
+            <div class="flex items-center my-1">
+                <hr class="flex-1 border-gray-300">
+                <span class="mx-4">OR</span>
+                <hr class="flex-1 border-gray-300">
+            </div>
+
+            <!-- Email or phone field -->
+            <div class="w-full">
+                <input class="h-12 outline-blue-600 sm:h-9 bg-gray-50 w-full border border-gray-300 px-2 rounded-sm" type="text" name="" id="" placeholder="Email or phone">
+            </div>
+            
+            <!-- Nemes field -->
+            <div class="flex gap-x-2">
+                <div class="w-full">
+                    <input class="h-12 outline-blue-600 sm:h-9 bg-gray-50 w-full border border-gray-300 px-2 rounded-sm" type="text" name="" id="" placeholder="Firstname">
+                </div>
+                <div class="w-full">
+                    <input class="h-12 outline-blue-600 sm:h-9 bg-gray-50 w-full border border-gray-300 px-2 rounded-sm" type="text" name="" id="" placeholder="Lastname">
+                </div>
+            </div>
+            
+            <!-- Username field -->
+            <div class="w-full">
+                <input class="h-12 outline-blue-600 sm:h-9 bg-gray-50 w-full border border-gray-300 px-2 rounded-sm" type="text" name="" id="" placeholder="Username">
+            </div>
+            
+            <!-- password field -->
+            <div class="w-full relative ">
+                <input class="h-12 outline-blue-600 sm:h-9 bg-gray-50 w-full border border-gray-300 px-2 rounded-sm" type="password" name="" id="" placeholder="Password">
+                <i class="fas fa-eye absolute right-3 top-1/2 -translate-y-1/2 "></i>
+            </div>
+
+            <!-- login btn -->
+            <button class="bg-blue-300 w-full text-white py-2 rounded-sm sm:py-1">Signup</button>            
+
+            <!-- terms and policy -->
+            <p class="text-center text-gray-500 text-sm">by signing in you have agreed to our <a class="text-blue-400 hover:underline" href="#">Terms</a>, <a class="text-blue-400 hover:underline" href="#">Data policy</a> and <a class="text-blue-400 hover:underline" href="#">Cookies policy</a>.</p>
+
+        </form>
+
+        <div class="w-full text-center py-4 sm:border sm:border-gray-300 sm:w-[350px] sm:shadow-sm sm:shadow-blue-100">
+            <p>Have an account? <a class="text-blue-400 font-semibold" href="/login">Login</a></p>
+        </div>
+    </div>
+</body>
+</html>

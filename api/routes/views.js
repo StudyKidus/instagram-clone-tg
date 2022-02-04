@@ -10,4 +10,8 @@ views.get("/signup", (req, res) => {
     res.render("signup");
 })
 
+views.get("/confirm_email", (req, res) => {
+    res.render("confirm_email");
+})
+
 module.exports = views;
